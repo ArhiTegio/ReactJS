@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from './Button';
 
 
 class Header3 extends React.Component {
@@ -7,8 +6,6 @@ class Header3 extends React.Component {
         return (
             <header className='header'>
                 {this.props.title}
-                <Button/>
-                <Button text="Button"/>
             </header>
         )
     }
